@@ -20,7 +20,7 @@ export default function Contact() {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
-  const handleSubmit = async (e) => {
+ /* const handleSubmit = async (e) => {
     e.preventDefault()
     setStatus('loading')
 
@@ -37,7 +37,7 @@ export default function Contact() {
     } catch (error) {
       setStatus('error')
     }
-  }
+  }*/
   return (
     <section
       id="contact"
@@ -53,7 +53,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="bg-white/70 backdrop-blur-md rounded-3xl shadow-2xl p-10 space-y-8">
+        <form  className="bg-white/70 backdrop-blur-md rounded-3xl shadow-2xl p-10 space-y-8">
           {/* Name Field */}
           <div className="flex items-center border border-gray-300 rounded-xl overflow-hidden transition-all focus-within:ring-2 focus-within:ring-blue-500">
             <div className="bg-blue-100 px-4 py-3">
