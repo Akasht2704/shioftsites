@@ -1,9 +1,0 @@
-name = "shioftsites"
-compatibility_date = "2025-05-01"
-
-[build]
-command = "npm run build"
-
-[site]
-bucket = ".vercel/output/static"
-entry-point = ".vercel/output/functions"
